@@ -1,8 +1,24 @@
 aid: taascom
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/taascom.png
 name: Taascom
-description: 'Taascom is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: ecommerce. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Taascom (branded "The As A Service Company", taascom.com) is a San Jose, California
+  company founded in 2019 that provides an IoT-based servitization SaaS platform helping equipment
+  makers shift from transactional capex sales to recurring subscription, pay-per-use, and
+  outcome-based revenue models. Its packaged offerings include Device-as-a-Service,
+  Auto-Replenishment-as-a-Service, and Uptime-as-a-Service. Surfaced as a portfolio-company lead and
+  added to the API Evangelist network as a stub; enrichment found a marketing-stage web presence only
+  — no public API, developer portal, documentation, SDK, or OpenAPI surface at the time of this pass.'
 url: https://raw.githubusercontent.com/api-evangelist/taascom/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Ecommerce
+- SaaS
+- Servitization
+- IoT
+- Subscription
+- Business Model Transformation
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +45,11 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.taascom.com
+  url: https://www.taascom.com
+- type: Company
+  url: https://www.taascom.com/company/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
